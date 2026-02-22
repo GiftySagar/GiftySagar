@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi 👋 I'm Gifty Sagar
 
-<!--
-**GiftySagar/GiftySagar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Python Full Stack Developer  
+🚀 Skilled in Django, React, SQL, Bootstrap  
+📚 Currently learning advanced React  
 
-Here are some ideas to get you started:
+## 🔧 Skills
+- Python
+- Django
+- React JS
+- SQL
+- Bootstrap
+- Web technologies(HTML,CSS,JAVASCRIPT)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📂 Projects
+- Flight Management System (Django)
+- Student Management System (Django)
+- E-commerce Website
+- To-Do App
+  

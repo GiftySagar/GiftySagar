@@ -1,28 +1,149 @@
-<h2>📂 Projects</h2>
-<div class="projects">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gifty Sagar - Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 2px solid white;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 10px auto;
+            padding: 12px;
+            width: 320px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
+        }
+
+        .projects a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            font-weight: bold;
+        }
+
+        .projects a:hover {
+            color: #ffeb3b;
+        }
+
+        .btn {
+            margin-top: 30px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background: #ff9800;
+            color: black;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ffc107;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Hi 👋 I'm Gifty Sagar</h1>
+
+    <p>💻 Python Full Stack Developer</p>
+    <p>🚀 Skilled in Django, React, SQL, Bootstrap</p>
+    <p>📚 Currently learning Advanced React</p>
+
+    <!-- Skills -->
+    <h2>🔧 Skills</h2>
     <ul>
-        <li>
-            <a href="https://github.com/GiftySagar/flight-management-system" target="_blank">
-                ✈️ Flight Management System (Django)
-            </a>
-        </li>
-
-        <li>
-            <a href="https://github.com/GiftySagar/student-management-system" target="_blank">
-                🎓 Student Management System (Django)
-            </a>
-        </li>
-
-        <li>
-            <a href="https://github.com/GiftySagar/ecommerce-website" target="_blank">
-                🛒 E-commerce Website
-            </a>
-        </li>
-
-        <li>
-            <a href="https://github.com/GiftySagar/todo-app" target="_blank">
-                ✅ To-Do App
-            </a>
-        </li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>React JS</li>
+        <li>SQL</li>
+        <li>Bootstrap</li>
+        <li>HTML, CSS, JavaScript</li>
     </ul>
+
+    <!-- Projects -->
+    <h2>📂 Projects</h2>
+    <div class="projects">
+        <ul>
+            <li>
+                <a href="https://github.com/GiftySagar/flight-management-system" target="_blank">
+                    ✈️ Flight Management System (Django)
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/GiftySagar/student-management-system" target="_blank">
+                    🎓 Student Management System (Django)
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/GiftySagar/ecommerce-website" target="_blank">
+                    🛒 E-commerce Website
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/GiftySagar/todo-app" target="_blank">
+                    ✅ To-Do App
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <button class="btn" onclick="showMessage()">Click Me 🚀</button>
+
+    <footer>
+        © 2026 Gifty Sagar | Built with HTML, CSS & JS
+    </footer>
 </div>
+
+<script>
+    function showMessage() {
+        alert("Thank you for visiting my portfolio! 🚀");
+    }
+</script>
+
+</body>
+</html>
